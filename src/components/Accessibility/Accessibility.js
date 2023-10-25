@@ -35,17 +35,6 @@ const Box1 = styled.div `
 `;
 
 const Box2 = styled.div `
-      @media(max-width: 768px) {    
-        color: red;
-      & .grid-container{
-        position: relative;
-      }
-      & .div1-box2{
-        /* position: absolute;
-        bottom: ; */
-      }
-  }
-
   & .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -73,16 +62,6 @@ const Box2 = styled.div `
 `;
 
 const Box3 = styled.div `
-        @media(max-width: 768px) {    
-        color: blue;
-        & .grid-container{
-          grid-gap: 0;
-        }
-
-
-      
-  }
-
   & .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
