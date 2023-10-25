@@ -5,18 +5,11 @@ import image3 from "./image3.webp";
 import image4 from "./image4.webp";
 const Container = styled.div `
   & .container {
-
     margin: auto;
     width: 1000px;
   }
 `;
 const Box1 = styled.div `
-    @media(max-width: 768px) {    
-    & .container{
-      width: 100%;      
-      font-size: 50%;
-    }
-  }
   & .container {
     /* margin: auto; */
     width: 900px;
